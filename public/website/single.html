@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>myweb</title>
+  <!-- <link rel="preload" href="fonts/Ubuntu-Bold.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body" data-theme="blue">
+  <div class="site-container">
+
+    <div class="loader">
+      <div class="loader__balls">
+        <div class="loader__ball loader__ball--red"></div>
+        <div class="loader__ball loader__ball--blue"></div>
+        <div class="loader__ball loader__ball--green"></div>
+        <div class="loader__ball loader__ball--yellow"></div>
+      </div>
+      <p class="loader__text">Loading</p>
+    </div>
+
+    <header class="header">
+      <a href="index.html"><img src="img/logotype.png" alt="Логотип"></a>
+      <!-- <div class="blog-welcome container-fluid">
+      <h1 class="blog-welcome__title"><xmp><h1>Hello,world</h1></xmp></h1>
+      <svg class="blog-welcome__line" width="299" height="20" viewBox="0 0 299 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M298.019 6.58158C242.824 0.377105 262.102 15.3587 209.995 9.06693C157.889 2.77514 143.353 12.708 100.661 12.154C62.0087 11.6524 48.765 19.8797 1.91773 7.17901" stroke="#8C50FF" stroke-width="10"/>
+      </svg>
+    </div> -->
+      <div class="burger">
+        <div class="burger__line"></div>
+      </div>
+    </header>
+    <div class="burger-menu">
+      <ul class="navigation">
+        <div class="navigation__round"></div>
+        <li class="navigation__item">
+          <a href="index.html" class="navigation__link">Главная</a>
+        </li>
+        <li class="navigation__item">
+          <a href="portfolio.html" class="navigation__link">Портфолио</a>
+        </li>
+        <li class="navigation__item">
+          <a href="blog-page.html" class="navigation__link">Блог</a>
+        </li>
+      </ul>
+      <div class="choice-theme choice-theme-menu">
+        <p class="choice-theme__title">
+          Выберите тему
+        </p>
+        <div class="choice-theme__container">
+          <div class="choice-theme__item">
+            <input type="radio" id="blue" name="choice-theme" class="choice-theme__radio visually-hidden" checked>
+            <label for="blue" class="choice-theme__label choice-theme__label--blue"></label>
+          </div>
+          <div class="choice-theme__item">
+            <input type="radio" id="red" name="choice-theme" class="choice-theme__radio visually-hidden">
+            <label for="red" class="choice-theme__label choice-theme__label--red"></label>
+          </div>
+          <div class="choice-theme__item">
+            <input type="radio" id="green" name="choice-theme" class="choice-theme__radio visually-hidden">
+            <label for="green" class="choice-theme__label choice-theme__label--green"></label>
+          </div>
+          <div class="choice-theme__item">
+            <input type="radio" id="yellow" name="choice-theme" class="choice-theme__radio visually-hidden">
+            <label for="yellow" class="choice-theme__label choice-theme__label--yellow"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-space"></div>
+
+    <div class="container-fluid">
+      <div class="single">
+        <p><a href="portfolio.html" class="single__link link">Вернуться к работам</a></p>
+        <h2 class="single__category">web developement</h2>
+        <div class="single__post">
+          <div class="single__image--container">
+            <img src="img/single.jpg" alt="изображение поста" class="single__image">
+          </div>
+          <div class="single__content">
+            <div class="single__info">
+              <h3 class="single__title">VUE APP PROject</h3>
+              <div class="single__author--container">
+                <p class="single__author--mark">Автор</p>
+                <p class="single__author">Коля Калашников</p>
+              </div>
+              <div class="single__date--container">
+                <p class="single__date--mark">Дата</p>
+                <p class="single__author">10.12.2023</p>
+              </div>
+            </div>
+            <p class="single__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+              numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
+              ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+              ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+              molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+          </div>
+        </div>
+        <div class="single__buttons">
+          <a class="single__button blog__category-link">Предыдущий пост</a>
+          <a class="single__button blog__category-link">Следующий пост</a>
+        </div>
+      </div>
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        Коля Калашников
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
